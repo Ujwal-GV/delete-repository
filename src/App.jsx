@@ -45,8 +45,6 @@ export default function App() {
           <br /><br />
           and remembered forever ✨
         </p>
-        <br /><br />
-        <p>And yes I won't be available for few weeks, and I won't be available for calls too</p>
       </div>
     </motion.div>
   );
