@@ -5,6 +5,7 @@ import Gallery from "./components/Gallery";
 import Message from "./components/Message";
 import FloatingPhotos from "./components/FloatingImages";
 import { motion } from "framer-motion";
+import emailjs from "@emailjs/browser";
 
 
 export default function App() {
