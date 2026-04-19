@@ -19,13 +19,13 @@ export default function App() {
     } else {
       localStorage.setItem("birthday_viewed", "true");
       emailjs.send(
-      "YOUR_SERVICE_ID",
-      "YOUR_TEMPLATE_ID",
+      "service_j7oz72p",
+      "template_fg7ufxa",
       {
         time: new Date().toLocaleString(),
         device: navigator.userAgent,
       },
-      "YOUR_PUBLIC_KEY"
+      "SjQOHdH8uVkOqmWoN"
     );
     }
   }, []);
